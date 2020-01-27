@@ -1,0 +1,13 @@
+# Personnalisez les champs ci-dessous!
+[user]
+username = thibault-odor
+name = Thibault Odor
+email = thibault.odor@etu-umontpellier.fr
+
+# Si vous faites git commit sans donner le message avec -m,
+# Git ouvrira l'éditeur gedit pour que vous tapiez le message
+git config --global core.editor "gedit --new-window -w"
+# Pour anticiper une erreur due aux certificats de l'IUT
+#              "server certificate verification failed"
+git config --global http.sslverify false
+
