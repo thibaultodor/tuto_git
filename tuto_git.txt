@@ -1,0 +1,28 @@
+TUTO GIT :
+
+//clone depo
+git clone https://github.com/thibaultodor/first_project
+//permet de créer une copie local du dossier first_project sur la machine
+
+//voir modification du depo (propre ou non)
+git status
+
+//ajout fichier
+git add toto.txt
+//permet de rajouter le fichier toto.txt
+
+//valider changement
+git commit -m "blabla"
+
+//log du depo
+git log
+
+//se synchroniser avec serveur
+git pull
+
+//pousser un fichier
+git push
+
+
+
+
