@@ -26,7 +26,25 @@ git push
 //Affiche les différences ajouté
 git diff
 
+//ajoute une branche
+git branch add-thibaulto  <- add-thibaulto = nom de la branche on pourrait mettre "tartanpion"
 
+//switcher de branche
+git checkout add-thibaulto
 
+//Fusionner une branche dans la branche courante
+git merge <BRANCHNAME>
+
+//Changer la branche sur laquelle vous travaillez
+git checkout <BRANCHNAME>
+
+//Supprimer une branche locale
+git branch -d <BRANCHNAME>
+
+//Supprimer une branche distante
+git push <REMOTENAME> --delete <BRANCHNAME>
+
+//Tirer depuis une branche distante
+git pull <REMOTENAME> <BRANCHNAME>
 
 
