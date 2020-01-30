@@ -23,6 +23,10 @@ git pull
 //pousser un fichier
 git push
 
+//Affiche les différences ajouté
+git diff
+
+
 
 
 
