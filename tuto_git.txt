@@ -26,11 +26,26 @@ git push
 //Affiche les différences ajouté
 git diff
 
+//Ajouter un remote
+git remote add <REMOTENAME> <URL>
+
+//Modifier l'URL d'un remote
+git remote set-url <REMOTENAME> <URL>
+
+//Tirer des changement à partir d'un remote
+git pull <REMOTENAME> <BRANCHNAME>
+
+//Afficher l'adresse d'un remote
+git remote -v
+
+//Pousser des modifications
+git push <REMOTENAME> <BRANCH>
+
 //ajoute une branche
 git branch add-thibaulto  <- add-thibaulto = nom de la branche on pourrait mettre "tartanpion"
 
 //switcher de branche
-git checkout add-thibaulto
+git checkout <BRANCHNAME>
 
 //Fusionner une branche dans la branche courante
 git merge <BRANCHNAME>
