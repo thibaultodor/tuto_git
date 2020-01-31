@@ -62,4 +62,9 @@ git push <REMOTENAME> --delete <BRANCHNAME>
 //Tirer depuis une branche distante
 git pull <REMOTENAME> <BRANCHNAME>
 
+//Initialiser depot git
+git init
 
+//A FAIRE ABSOLUMENT POUR INITIALISER CONFIG FILE
+git config --global user.name thibaultodor
+git config --global user.email thibault.odor@etu.umontpellier.fr
