@@ -26,6 +26,9 @@ git push
 //Affiche les différences ajouté
 git diff
 
+//ajoute une branche
+git branch add-thibaulto  <- add-thibaulto = nom de la branche on pourrait mettre "tartanpion"
+
 //Ajouter un remote
 git remote add <REMOTENAME> <URL>
 
@@ -40,9 +43,6 @@ git remote -v
 
 //Pousser des modifications
 git push <REMOTENAME> <BRANCH>
-
-//ajoute une branche
-git branch add-thibaulto  <- add-thibaulto = nom de la branche on pourrait mettre "tartanpion"
 
 //switcher de branche
 git checkout <BRANCHNAME>
